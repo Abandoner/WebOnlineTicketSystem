@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.4" xmlns="http://java.sun.com/xml/ns/j2ee"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee 
+	http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd">
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>logincheck</servlet-name>
+		<servlet-class>servlet.logincheck</servlet-class>
+		<init-param>
+			<param-name>Driver</param-name>
+			<param-value>com.mysql.jdbc.Driver</param-value>
+		</init-param>
+
+		<init-param>
+			<param-name>user</param-name>
+			<param-value>root</param-value>
+		</init-param>
+		<init-param>
+			<param-name>password</param-name>
+			<param-value>123456</param-value>
+		</init-param>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>usersvlt</servlet-name>
+		<servlet-class>servlet.usersvlt</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>ticketsvlt</servlet-name>
+		<servlet-class>servlet.ticketsvlt</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>trainsvlt</servlet-name>
+		<servlet-class>servlet.trainsvlt</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>query</servlet-name>
+		<servlet-class>servlet.query</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>registersvlt</servlet-name>
+		<servlet-class>servlet.registersvlt</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>querysvlt</servlet-name>
+		<servlet-class>servlet.querysvlt</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>passwordsvlt</servlet-name>
+		<servlet-class>servlet.passwordsvlt</servlet-class>
+		<init-param>
+			<param-name>Driver</param-name>
+			<param-value>com.mysql.jdbc.Driver</param-value>
+		</init-param>
+
+		<init-param>
+			<param-name>user</param-name>
+			<param-value>root</param-value>
+		</init-param>
+		<init-param>
+			<param-name>password</param-name>
+			<param-value>123456</param-value>
+		</init-param>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>typesvlt</servlet-name>
+		<servlet-class>servlet.typesvlt</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>tra_sta_stasvlt</servlet-name>
+		<servlet-class>servlet.tra_sta_stasvlt</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>sta_stasvlt</servlet-name>
+		<servlet-class>servlet.sta_stasvlt</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>booksvlt</servlet-name>
+		<servlet-class>servlet.booksvlt</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>logincheck</servlet-name>
+		<url-pattern>/logincheck</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>usersvlt</servlet-name>
+		<url-pattern>/usersvlt</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>ticketsvlt</servlet-name>
+		<url-pattern>/ticketsvlt</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>trainsvlt</servlet-name>
+		<url-pattern>/trainsvlt</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>query</servlet-name>
+		<url-pattern>/query</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>registersvlt</servlet-name>
+		<url-pattern>/registersvlt</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>querysvlt</servlet-name>
+		<url-pattern>/querysvlt</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>passwordsvlt</servlet-name>
+		<url-pattern>/passwordsvlt</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>typesvlt</servlet-name>
+		<url-pattern>/typesvlt</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>tra_sta_stasvlt</servlet-name>
+		<url-pattern>/tra_sta_stasvlt</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>sta_stasvlt</servlet-name>
+		<url-pattern>/sta_stasvlt</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>booksvlt</servlet-name>
+		<url-pattern>/booksvlt</url-pattern>
+	</servlet-mapping>
+	<welcome-file-list>
+		<welcome-file>hello.jsp</welcome-file>
+	</welcome-file-list>
+
+
+</web-app>

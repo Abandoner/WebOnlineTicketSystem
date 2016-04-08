@@ -1,0 +1,251 @@
+ <%@ page contentType="text/html; charset=utf-8" language="java"
+import="java.sql.*" errorPage="" %>
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="cs" lang="cs">
+	<head>
+
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta http-equiv="content-language" content="cs" />
+		<meta name="author" lang="cs" content="..." />
+		<meta name="copyright" lang="cs" content="..." />
+		<meta name="description" content="..." />
+		<meta name="keywords" content="..." />
+		<meta name="robots" content="all,follow" />
+		<link href="css/screen.css" type="text/css" rel="stylesheet"
+			media="screen,projection" />
+		<!--[if lte IE 6]>
+    <link href="css/msie.css" type="text/css" rel="stylesheet" media="screen,projection" />
+    <![endif]-->
+		<link rel="stylesheet" media="print" type="text/css"
+			href="css/print.css" />
+
+		<title>火车售票 &ndash;</title>
+	</head>
+	<body>
+
+		<div id="layout">
+
+			<div id="header">
+
+				<h1 id="logo">
+					<a href="./" title="Company">火车<span class="light">售票</span><span
+						class="leaf">&nbsp;</span>
+					</a>
+				</h1>
+				<hr class="noscreen" />
+
+
+
+				<hr class="noscreen" />
+
+				<div id="nav" class="box">
+					<ul></ul>
+					<hr class="noscreen" />
+				</div>
+
+				<div id="container" class="box">
+
+					<div id="obsah" class="content box">
+						<div class="in">
+
+							<h2>
+								Lorem ipsum dolor!
+							</h2>
+							<p>
+								Duis aute irure dolor in reprehenderit in voluptate velit esse
+								cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+								cupidatat non proident, sunt in culpa qui officia deserunt
+								mollit anim id est laborum.
+							</p>
+
+							<h3>
+								Dolor sit amet:
+							</h3>
+							<ul>
+								<li>
+									<a href="#">Dolor in reprehenderit</a>
+								</li>
+								<li>
+									<a href="#">In reprehenderit</a>
+								</li>
+								<li>
+									<a href="#">Molot in reprehenderit in volupta</a>
+								</li>
+								<li>
+									<a href="#">Rure dolor in reprehenderit in volupta</a>
+								</li>
+							</ul>
+
+							<h3>
+								Lorem ipsum dolor
+							</h3>
+
+							<p>
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit, im
+								veniam, quis n ullamco laboris nisi ut aliquip im veniam, quis n
+								ullamco laboris nisi ut aliquip sed do eiusmod tempor incididunt
+								ut labore et dolore magna aliquaim veniam
+							</p>
+
+
+							<p>
+								Quis n ullamco laboris nisi ut aliquip. Ut enim ad minim veniam,
+								quis n ullamco laboris nisi ut aliquip ex ea commodo consequat.
+							</p>
+
+							<p>
+								Duis aute irure dolor in reprehenderit in voluptate velit esse
+								cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+								cupidatat non proident, sunt in culpa qui officia deserunt
+								mollit anim id est laborum.
+							</p>
+
+
+							<p>
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit, im
+								veniam, quis n ullamco laboris nisi ut aliquip im veniam, quis n
+								ullamco laboris nisi ut aliquip.
+							</p>
+
+						</div>
+					</div>
+
+					<div id="panel-left" class="box panel">
+						<div class="in">
+
+							<p>
+								<span>
+
+									<table width="170" border="0" cellspacing="0" cellpadding="0">
+										<tr>
+											<td align="center">
+											</td>
+										</tr>
+										<tr>
+											<td>
+												<table width="170" border="0" cellspacing="0"
+													cellpadding="0" height="40">
+													<tr>
+														<td>
+															<div align="center">
+																<b><a href="hello.jsp">首页</a>
+																</b>
+															</div>
+														</td>
+													</tr>
+												</table>
+											</td>
+										</tr>
+
+										<tr>
+											<td height="30">
+												<table width=170 " border="0" cellspacing="0"
+													cellpadding="0" height="40">
+													<tr>
+														<td>
+															<div align="center">
+																<b> <a href="userlogin.jsp">用户登录</a>
+																</b>
+															</div>
+														</td>
+													</tr>
+												</table>
+												<table width="170" border="0" cellspacing="0"
+													cellpadding="0" height="40">
+													<tr>
+														<td>
+															<div align="center">
+																<b> <a href="adminlogin.jsp"> 管理员登录</a>
+																</b>
+															</div>
+														</td>
+													</tr>
+												</table>
+												<table width="170" border="0" cellspacing="0"
+													cellpadding="0" height="40">
+													<tr>
+														<td>
+															<div align="center">
+																<b> <a href="trainquery.jsp"> 按车次查询</a>
+																</b>
+															</div>
+														</td>
+													</tr>
+												</table>
+												<table width="170" border="0" cellspacing="0"
+													cellpadding="0" height="40">
+													<tr>
+														<td>
+															<div align="center">
+																<b> <a href="addressquery.jsp"> 按地点查询</a>
+																</b>
+															</div>
+														</td>
+													</tr>
+												</table>
+												<table width="170" border="0" cellspacing="0"
+													cellpadding="0" height="40">
+													<tr>
+														<td>
+															<div align="center">
+																<b> <a href="stationquery.jsp"> 按站点查询</a>
+																</b>
+															</div>
+														</td>
+													</tr>
+												</table>
+
+												<table width="170" border="0" cellspacing="0"
+													cellpadding="0" height="40">
+													<tr>
+														<td>
+															<div align="center">
+																<b> <a href="userregister.jsp">用户注册</a>
+																</b>
+															</div>
+														</td>
+													</tr>
+												</table>
+
+
+
+												<table width="170" border="0" cellspacing="0"
+													cellpadding="0" height="40">
+												</table>
+												<table width="170" border="0" cellspacing="0"
+													cellpadding="0" height="40">
+													<tr>
+														<td>
+															<div align="center">
+																<b> <a href="dizhi.jsp"> 联系我们</a> </b>
+															</div>
+														</td>
+													</tr>
+												</table>
+
+												<table width="170" border="0" cellspacing="0"
+													cellpadding="0" height="40">
+												</table>
+												<td width="30" height="30">
+													&nbsp;
+												</td>
+												<tr>
+													<td colspan="2">
+														<img src="image/bg.gif" width="280" height="100">
+													</td>
+												</tr>
+									</table> </span>
+							</p>
+						</div>
+					</div>
+				</div>
+				<div id="footer">
+
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
